@@ -31,7 +31,7 @@ class Invoice {
 }
 ```
 
-- Hodnoty ktore sa nemenia za behu budu zadefinovat v konstantach
+- Hodnoty ktore sa nemenia za behu budu zadefinovane v konstantach
 
 ```php
 ...
