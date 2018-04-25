@@ -18,7 +18,6 @@ $a = [
 ##### 2.1) Vseobecne
 
 - Nazov bude camelCase a zacinat velkym pismenom
-- Nazov suboru bude rovnaky ako jej nazov (skontrolovat ci to umoznuje cake)
 - Bude obsahovat komentar co robi
 
 ```php
