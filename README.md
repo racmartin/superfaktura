@@ -31,6 +31,17 @@ class Invoice {
 }
 ```
 
+- Hodnoty ktore sa nemenia za behu budu zadefinovat v konstantach
+
+```php
+...
+class Invoice {
+  ...
+  const CURRENCIES = ['EUR', 'CZK'];
+  ...
+}
+```
+
 ##### 2.2) Parametre
 
 - Nazov bude camelCase zacinat malym pismenom
@@ -103,8 +114,9 @@ class InvoicesController extends AppController {
 
 ### 4) Model
 
-Sluzi na spracovanie veskerej logiky na zaklade parametrov. Vracia vysledok, idealne pri chybach ich throwuje.
+Sluzi na spracovanie veskerej logiky na zaklade parametrov naviazanej na tabulku.
 
+- Vracia vysledok, idealne pri chybach ich throwuje.
 - Vyuzivame vsetky metody cyklu (beforeSave, afterSave...)
 
 ```php
@@ -135,3 +147,9 @@ class Invoice extends AppModel {
   ...
 }
 ```
+
+### 5) Komponenta
+
+Sluzi na spracovanie veskerej logiky na zaklade parametrov ale nie je naviazana na tabulku. Priklad nacitanie dat z FinStatu, Platba cez CardPay a podobne.
+
+- Vracia vysledok, idealne pri chybach ich throwuje.
