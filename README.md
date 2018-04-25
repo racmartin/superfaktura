@@ -13,6 +13,7 @@ $a = [
 ];
 ```
 - Parametre v poli nepiseme camelCase ale oddelene _
+- Snazime sa logiku rozdelovat do co najmensich casti (funkcii), ktore budu na zaklade parametrov vraciat vysledok. Kod bude prehladnejsi a lepsie testovatelny.
 
 ### 2) Triedy
 ##### 2.1) Vseobecne
