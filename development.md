@@ -7,4 +7,4 @@ druhemu kolegovi, ktory skontroluje mozne chyby, ci je kod podla nasich zasad a 
 - Ak nam kolega nieco najde, tak to zapracujeme a dame mu to znova skontrolovat
 - Po schvaleni druhym kolegom, mergneme do mastra a pushujeme
 
-Pri vybere kolega na code review bude lepsie uprednosti toho kto naposledy robil s danym kodom alebo sa v nom najlepsie orientuje.
+Pri vybere kolegu na code review bude lepsie uprednosti toho kto naposledy robil s danym kodom alebo sa v nom najlepsie orientuje.
